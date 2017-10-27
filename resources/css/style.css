@@ -147,10 +147,7 @@ footer {
     position: absolute;
   }
   #headline {
-    padding: 0.75 4rem;
-    font-size: 1.33rem;
     border-top: 5rem;
-    margin-right: 2rem;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -171,8 +168,9 @@ footer {
     background-position: 20%
   }
   #headline {
+    left: 0;
+    top: 0;
     margin: 9rem 0 auto 0;
-    padding: 1rem auto;
     font-size: 1rem;
     text-align: center;
     width: 100%;
