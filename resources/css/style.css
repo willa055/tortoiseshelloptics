@@ -71,7 +71,6 @@ a {
   position: relative;
   top: 10rem;
   left: 50%;
-  box-sizing: border-box;
 }
 .services {
   display: flex;
@@ -137,7 +136,7 @@ footer {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1230px) {
   header {
     padding-top: 0;
     height: 22rem;
@@ -148,6 +147,7 @@ footer {
   }
   #headline {
     border-top: 5rem;
+    left: 75px;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -167,9 +167,12 @@ footer {
     height: 17rem;
     background-position: 20%
   }
+  section.container {
+    width: 100%;
+  }
   #headline {
     left: 0;
-    top: 0;
+    top: 50px;
     margin: 9rem 0 auto 0;
     font-size: 1rem;
     text-align: center;
@@ -195,6 +198,7 @@ footer {
   }
   .info {
     width: auto;
+    margin-right: 0;
   }
   .info p {
     font-size: 0.77rem;
